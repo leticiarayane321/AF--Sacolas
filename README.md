@@ -29,9 +29,21 @@ Aplicação web para acompanhamento de pedidos de uma empresa de sacolas persona
 
 ```text
 .
+
+.
 ├── dashboard/
 │   ├── app.py
 │   └── requirements.txt
+│
+├── engenharia-dados/
+│   └── schema1-dados-publicos/
+│       ├── database/
+│       ├── importacao/
+│       ├── analises/
+│       ├── resultados/
+│       ├── documentacao/
+│       └── README.md
+│
 ├── Diagrama.pdf
 ├── Diagrama.png
 ├── TrabalhoSegundaUnidade.sql
@@ -142,4 +154,11 @@ O diagrama do banco está disponível em [`Diagrama.png`](./Diagrama.png) e [`Di
 - O banco precisa estar em execução para o dashboard consultar ou alterar dados.
 - O script SQL contém dados iniciais para facilitar a demonstração.
 - A senha do MySQL não é armazenada no código; ela é informada pela barra lateral ou por variável de ambiente.
+## Engenharia de Dados — Dados Públicos
+
+O projeto também contempla uma etapa de Engenharia de Dados voltada à análise de dados públicos do comércio eletrônico brasileiro.
+
+Essa etapa utiliza o conjunto de dados Brazilian E-Commerce Public Dataset by Olist, com estruturação em MySQL, importação de arquivos CSV, desenvolvimento de consultas SQL e extração de indicadores para contextualização do mercado.
+
+**Documentação e arquivos técnicos:** [Engenharia de Dados — Schema 1](engenharia-dados/schema1-dados-publicos/README.md).
 
